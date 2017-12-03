@@ -1,0 +1,119 @@
+
+h1{
+  color:red;
+}
+#line{
+  color:blue;
+}
+#bordertest{
+  color:yellow;
+  background-color:red;
+  border-style: solid;
+  border-radius: 100px;
+  font-size: 40px;
+  width:1000px;
+  /*clear :right;*/
+}
+#AJpic{
+  float: right;
+}
+.buttonlike{
+  background-color: lightblue;
+  width: 125px;
+  padding-left: 50px;
+
+}
+.buttonlike:hover{
+  background-color: red;
+}
+#hideAJ{
+  display:none;
+}
+#showtest:hover img{
+  display:block;
+}
+#showtest{
+  width: 100px;
+}
+
+body{
+  background-image: url("Applejack.png");
+}
+
+.transboxtest{
+  position:absolute;
+  left:500px;
+  top: 320px;
+  background-color: white;
+  opacity: 0.6;
+  height:300px;
+  width:500px;
+  clear: both;
+}
+.transboxtest p{
+  font-family: Arial;
+  font-size: 20px;
+}
+
+.galbox{
+  position:absolute;
+  top:700px;
+  left:1000px;
+  float:left;
+
+}
+div.transboxgal{
+  position:relative;
+  height: 360px;
+  width: 300px;
+  background-color: white;
+  float:left;
+  margin-right: 20px;
+  margin-bottom: 50px;
+}
+div.transboxgal img{
+  height: 300px;
+  width:300px;
+  padding-right: 50px;
+}
+div.transboxgal p {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
+}
+#navbartest{
+  width:200px;
+  background-color: #f1f1f1;
+}
+.navbutton{
+  display: block;
+  color:lightblue;
+  padding:8px;
+  border: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.navbutton:hover{
+  background-color: #555;
+  color:#000;
+}
+
+.tl{
+  position: absolute;
+  top: 8px;
+  right:16px;
+  font-size: 20px;
+}
+
+.container{
+  position:relative;
+}
+
+#spantest{
+  font-size: 50px;
+  color: red;
+}
+
+#heck{
+  font-size: 25px;
+}
