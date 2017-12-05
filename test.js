@@ -72,3 +72,11 @@ for(i=0;i<greatponies.length;i++){
   liz.textContent = greatponies[i];
   document.getElementById('ponylist').appendChild(liz);
 }
+
+var applejack ={sister:'applebloom',brother:'big mac',grandma:'granny smith'};
+console.log(applejack);
+console.log(applejack.sister);
+
+for(var p in applejack){
+  console.log(p+' '+applejack[p]);
+}
